@@ -11,7 +11,7 @@ FONT_THICKNESS = 2
 MODEL = 'cnn'  # default: 'hog', other one can be 'cnn' - CUDA accelerated (if available) deep-learning pretrained model
 
 
-# Returns (R, G, B) from name
+# Returns (R, G, B) from name some changes
 def name_to_color(name):
     # Take 3 first letters, tolower()
     # lowercased character ord() value rage is 97 to 122, substract 97, multiply by 8
